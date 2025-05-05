@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: darkslategrey;
+  max-height: 6rem;
+  line-height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.display-items{
+  display: flex;
+  margin: 2rem;
+}
+
+.service-img{
+  width: 25rem;
+}
+
+h1{
+  font-size: 2rem;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.details{
+  margin: 0 5rem;
+}

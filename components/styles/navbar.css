@@ -1,0 +1,27 @@
+.nav a {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+    color: white;
+    font-weight: 600;
+  }
+  
+  .nav a::after {
+    content: ""; /* Empty content for the line */
+    position: absolute;
+    bottom: -2px; /* Adjust the position of the line */
+    left: 0;
+    width: 0; /* Start with no width */
+    height: 2px; /* Line thickness */
+    background-color: #ff5733; /* Line color */
+    transition: width 0.3s ease; /* Smooth animation */
+  }
+  
+  .nav a:hover::after, .nav a.active::after {
+    width: 100%; /* Expand the line fully on hover or active state */
+  }
+
+  #logo{ 
+    position: relative; 
+    bottom: 1rem; 
+    height: 3.5rem; 
+}
